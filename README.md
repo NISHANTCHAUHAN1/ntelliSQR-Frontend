@@ -56,3 +56,8 @@ The app includes authentication, password reset, and complete Todo management.
 - React Query
 - Zod + React Hook Form
 - Tailwind CSS
+
+# Deployment
+
+- Backend (Render)
+- Frontend (Vercel)
