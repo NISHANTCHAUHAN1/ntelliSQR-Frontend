@@ -1,16 +1,58 @@
-# React + Vite
+# Todo App – Full Stack (Node.js + React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-stack Todo application built with Node.js + TypeScript on the backend and React + TypeScript on the frontend.
+The app includes authentication, password reset, and complete Todo management.
 
-Currently, two official plugins are available:
+# Features
+⦁ User Features
+⦁ Create a new account
+⦁ Login with JWT authentication
+⦁ Forgot password (reset link)
+⦁ Reset password
+⦁ Logout
+⦁ Logged-in state persists using Zustand store
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Todo Features
 
-## React Compiler
+⦁ Add a new todo
+⦁ Edit an existing todo
+⦁ Delete a todo
+⦁ Mark todo as completed or not completed
+⦁ List all todos of the logged-in user
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Other Backend Features
+	
+⦁ All errors are handled with proper messages
+⦁ Every backend error is stored inside a separate logs collection in MongoDB
+⦁ Uses MongoDB Atlas (free tier)
+⦁ Uses Zod for validation	
+⦁ Uses JWT for authentication
 
-## Expanding the ESLint configuration
+# Frontend Features
+	
+⦁ React Router for navigation	
+⦁ Zustand for global auth state	
+⦁ React Query v5 for API calls + caching	
+⦁ Zod for form validation	
+⦁ React Hook Form for forms	
+⦁ Tailwind CSS for UI	
+⦁ Custom UI for Login/Signup pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+# Backend
+
+⦁ Node.js + TypeScript
+⦁ Express.js
+⦁ MongoDB + Mongoose
+⦁ JWT Authentication
+⦁ Zod validation
+⦁ Bcrypt for password hashing
+⦁ Frontend
+⦁ React + TypeScript (Vite)
+⦁ React Router
+
+# Zustand
+
+⦁ React Query
+⦁ Zod + React Hook Form
+⦁ Tailwind CSS
